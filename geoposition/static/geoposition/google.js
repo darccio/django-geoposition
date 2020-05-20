@@ -38,7 +38,7 @@ if (jQuery != undefined) {
                 $mapContainer = $('<div class="geoposition-map" />'),
                 $addressRow = $('<div class="geoposition-address" />'),
                 $searchRow = $('<div class="geoposition-search" />'),
-                $searchInput = $('<input>', {'type': 'text', 'placeholder': django.gettext('Input an address...')}),
+                $searchInput = $('<input>', {'type': 'text', 'placeholder': 'Input an address...'}),
                 $latitudeField = $container.find('input.geoposition:eq(0)'),
                 $longitudeField = $container.find('input.geoposition:eq(1)'),
                 latitude = parseFloat($latitudeField.val()) || null,
